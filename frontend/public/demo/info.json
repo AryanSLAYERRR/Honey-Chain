@@ -1,0 +1,7 @@
+{
+  "notice": "Harvest CCTV inspection recording metadata",
+  "resolution": "1920x1080",
+  "fps": 30,
+  "codec": "H.264",
+  "seal": "cryptographic-sha256-verified"
+}

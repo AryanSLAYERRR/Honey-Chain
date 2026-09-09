@@ -1,0 +1,34 @@
+{
+  "name": "HoneyChain Digital Ecosystem",
+  "short_name": "HoneyChain",
+  "description": "End-to-End Honey Traceability from Hive to Bottle with IoT, AI & Blockchain",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#F59E0B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Verify Bottle",
+      "url": "/verify",
+      "description": "Scan NFC or QR code on honey bottle"
+    },
+    {
+      "name": "Farmer Dashboard",
+      "url": "/farmer",
+      "description": "Monitor hives and register batches"
+    },
+    {
+      "name": "Blockchain Explorer",
+      "url": "/blockchain",
+      "description": "View live Ethereum transactions"
+    }
+  ]
+}
