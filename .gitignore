@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Python & Backend
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+*.egg-info/
+
+# Next.js & Frontend
+frontend/.next/
+frontend/out/
+frontend/build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Hardhat & Blockchain
+blockchain/cache/
+blockchain/artifacts/
+
+# OS & Environment
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
