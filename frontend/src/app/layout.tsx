@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{
             __html: `
               try {
-                const t = localStorage.getItem('honeychain_theme') || 'dark';
+                const t = localStorage.getItem('honeychain_theme') || 'light';
                 document.documentElement.setAttribute('data-theme', t);
                 if (t === 'dark') document.documentElement.classList.add('dark');
                 else document.documentElement.classList.remove('dark');
