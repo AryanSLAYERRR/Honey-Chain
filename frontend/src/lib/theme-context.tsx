@@ -15,12 +15,12 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   // Default to 'dark' mode as requested to reduce eye strain on dense data dashboards
-  const [theme, setThemeState] = useState<Theme>('dark');
+  const [theme, setThemeState] = useState<Theme>('light');
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     const saved = localStorage.getItem('honeychain_theme') as Theme | null;
-    const initial = saved || 'dark';
+    const initial = saved || 'light';
     setThemeState(initial);
     document.documentElement.setAttribute('data-theme', initial);
     if (initial === 'dark') {
